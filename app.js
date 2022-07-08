@@ -3,6 +3,7 @@
 
 // local dependency - use it only in this particular project
 // npm i <packageName>
+// npm i <packageName> -D -use during development
 
 // global dependency - use it in any project
 // npm install -g <packageName>
@@ -20,3 +21,5 @@ const items = [1,[2,[3,[4]]]];
 const newItems = _.flattenDeep(items);
 
 console.log(newItems);
+
+console.log("Hello people");
